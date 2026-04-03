@@ -1,0 +1,45 @@
+name: workout_tracker
+description: A Flutter app to track your workout routines with customizable exercises, timers, and progress analytics.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.0
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # UI Components
+  fl_chart: ^0.64.0
+
+  # Audio for timer
+  just_audio: ^0.9.32
+
+  # Notifications
+  flutter_local_notifications: ^14.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add custom fonts
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
